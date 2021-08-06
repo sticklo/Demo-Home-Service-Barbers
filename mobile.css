@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+.hero-main {
+    overflow: auto;
+    background-image: url("images/hero-img.jpg");
+    height: 1024px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo span {
+    color: rgba(255, 189, 74, 1);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em;
+}
+
+#hamburgerBtn{
+    color:rgba(255, 189, 74, 1); 
+    font-size: 2em;
+}
+
+.nav-links button {
+    border: none;
+    background: none;
+}
+
+.hero-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFCE8;
+    padding: 30px;
+   
+}
+
+.hero-paragrapgh {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFCE8;
+    padding: 30px;
+}
+
+.hero-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 64px;
+}
+
+.first-btn {
+    width: 300px;
+    height: 62px;
+    background: #ffbd4a;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #1A1A1A;
+    border: none;
+    border-radius: 4px;
+}
+
+.second-btn{
+    width: 300px;
+    height: 62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFCE8;
+    border: 1px solid #FFFCE8;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.hero-links button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.hero-links button:hover {
+    border: 3.5px solid #7638d8;
+}

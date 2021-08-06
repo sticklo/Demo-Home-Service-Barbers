@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+
+    .hero-header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFCE8;
+        padding: 20px;
+       }
+       
+       .hero-paragrapgh{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33.6px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFCE8;
+        padding:20px 150px;
+       }
+
+       .hero-links{
+        flex-direction: row;
+    }
+    
+    
+    
+    }/*  end of media query */
